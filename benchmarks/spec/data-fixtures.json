@@ -1,0 +1,17 @@
+{
+  "small": {
+    "users": 50,
+    "invoices": 100,
+    "seriesPoints": 24
+  },
+  "medium": {
+    "users": 500,
+    "invoices": 1000,
+    "seriesPoints": 240
+  },
+  "large": {
+    "users": 5000,
+    "invoices": 10000,
+    "seriesPoints": 2400
+  }
+}

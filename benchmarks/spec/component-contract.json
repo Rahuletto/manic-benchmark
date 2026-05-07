@@ -1,0 +1,10 @@
+{
+  "interactiveComponents": [
+    "modal",
+    "tabs",
+    "formValidation",
+    "tableSortFilterPagination",
+    "toast",
+    "dialog"
+  ]
+}

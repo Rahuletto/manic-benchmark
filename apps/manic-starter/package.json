@@ -1,0 +1,30 @@
+{
+  "name": "manic-starter",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "manic dev",
+    "build": "manic build",
+    "start": "manic start",
+    "deploy": "manic deploy",
+    "lint": "manic lint",
+    "format": "manic fmt"
+  },
+  "dependencies": {
+    "@manicjs/mcp": "latest",
+    "@manicjs/seo": "latest",
+    "@manicjs/tailwind": "latest",
+    "manicjs": "latest",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.2.2",
+    "@manicjs/sitemap": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "oxfmt": "latest",
+    "oxlint": "latest"
+  }
+}

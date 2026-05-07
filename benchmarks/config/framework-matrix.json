@@ -1,0 +1,100 @@
+{
+  "runtime": {
+    "packageManager": "bun",
+    "versionPolicy": "latest"
+  },
+  "frameworks": [
+    {
+      "id": "manic",
+      "displayName": "Manic",
+      "supportsNativeSSR": false,
+      "modes": [
+        "csr"
+      ]
+    },
+    {
+      "id": "vite-react",
+      "displayName": "Vite React",
+      "supportsNativeSSR": false,
+      "modes": [
+        "csr"
+      ]
+    },
+    {
+      "id": "nextjs",
+      "displayName": "Next.js",
+      "supportsNativeSSR": true,
+      "modes": [
+        "csr",
+        "native"
+      ]
+    },
+    {
+      "id": "astro",
+      "displayName": "Astro",
+      "supportsNativeSSR": true,
+      "modes": [
+        "csr",
+        "native"
+      ]
+    },
+    {
+      "id": "nuxt",
+      "displayName": "Nuxt",
+      "supportsNativeSSR": true,
+      "modes": [
+        "csr",
+        "native"
+      ]
+    },
+    {
+      "id": "remix-react-router",
+      "displayName": "Remix (React Router)",
+      "supportsNativeSSR": true,
+      "modes": [
+        "csr",
+        "native"
+      ]
+    },
+    {
+      "id": "tanstack-start",
+      "displayName": "TanStack Start",
+      "supportsNativeSSR": true,
+      "modes": [
+        "csr",
+        "native"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "starter",
+      "routes": [
+        "/",
+        "/about",
+        "/pricing",
+        "/contact",
+        "/docs/getting-started"
+      ]
+    },
+    {
+      "id": "dashboard",
+      "routes": [
+        "/dashboard",
+        "/dashboard/analytics",
+        "/dashboard/users",
+        "/dashboard/invoices",
+        "/dashboard/settings",
+        "/dashboard/reports/q1"
+      ]
+    }
+  ],
+  "runProfiles": {
+    "warmupRuns": 1,
+    "measuredRuns": 10,
+    "cacheProfiles": [
+      "cold",
+      "warm"
+    ]
+  }
+}

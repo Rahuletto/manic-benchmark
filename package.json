@@ -1,0 +1,14 @@
+{
+  "name": "framework-benchmarks",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "bench:run": "bun benchmarks/scripts/run-benchmarks.ts",
+    "bench:report": "bun benchmarks/scripts/generate-report.ts",
+    "bench:starter": "BENCH_SCENARIO=starter BENCH_WARMUPS=1 BENCH_RUNS=20 BENCH_WORKERS=6 bun run bench:run && bun run bench:report",
+    "bench:dashboard": "BENCH_SCENARIO=dashboard BENCH_WARMUPS=1 BENCH_RUNS=20 BENCH_WORKERS=6 bun run bench:run && bun run bench:report"
+  }
+}

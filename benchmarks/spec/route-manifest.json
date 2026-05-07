@@ -1,0 +1,32 @@
+{
+  "starter": {
+    "routes": [
+      "/",
+      "/about",
+      "/pricing",
+      "/contact",
+      "/docs/getting-started"
+    ],
+    "requiredMarkers": [
+      "data-bench-page",
+      "data-bench-navbar",
+      "data-bench-footer"
+    ]
+  },
+  "dashboard": {
+    "routes": [
+      "/dashboard",
+      "/dashboard/analytics",
+      "/dashboard/users",
+      "/dashboard/invoices",
+      "/dashboard/settings",
+      "/dashboard/reports/q1"
+    ],
+    "requiredMarkers": [
+      "data-bench-sidebar",
+      "data-bench-topbar",
+      "data-bench-kpi-grid",
+      "data-bench-table"
+    ]
+  }
+}
