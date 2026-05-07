@@ -2,6 +2,9 @@
 
 Generated from `summary-starter.csv` and `benchmarks-starter.csv` with `20` measured runs (`starter` scenario, latest rerun).
 Co-authored by AmpCode.
+Co-authored by Cursor.
+> [!INFO]
+> AmpCode and Cursor were both used to create the testbench and validate each other's benchmark setup and outputs, reducing single-agent bias and improving fairness across frameworks.
 
 ## Dev Spinup Readiness (Cold, readyMeanMs)
 
